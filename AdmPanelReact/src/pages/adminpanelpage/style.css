@@ -1,0 +1,59 @@
+.AdminPanel{
+    background: rgb(12,12,116);
+    background: linear-gradient(90deg, rgba(12,12,116,1) 26%, rgba(8,146,174,1) 96%);
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.AdmPanelContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.AdmPanelContainer table,th,td{
+    border: 1px solid white;
+}
+.AdmPanelContainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.AdmPanelContainer table{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    background: rgb(3,3,36);
+    background: linear-gradient(90deg, rgba(3,3,36,1) 26%, rgba(0,90,108,1) 96%);
+}
+.AdmPanelBtn button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    border: 1px;
+    cursor: pointer;
+}
+a{
+    color:black;
+}
+.AdmPanelBtn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.edit{
+    width: 75px;
+    display: inline-block;
+    height: 20px;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.AddPageSct{
+    background: rgb(12,12,116);
+    background: linear-gradient(90deg, rgba(12,12,116,1) 26%, rgba(8,146,174,1) 96%);
+    height: 100vh;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.AddPageContainer{
+    width: 400px;
+    height: 500px;
+    background-color: coral;
+}
+.AddPageContainer form{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.AddPageContainer input,button{
+    height: 20px;
+    width: 90%;
+}
